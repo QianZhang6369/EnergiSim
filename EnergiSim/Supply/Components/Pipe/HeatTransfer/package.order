@@ -1,0 +1,6 @@
+PartialFlowHeatTransfer
+IdealFlowHeatTransfer
+ConstantFlowHeatTransfer
+PartialPipeFlowHeatTransfer
+LocalPipeFlowHeatTransfer
+DBHeatTransfer
