@@ -90,7 +90,7 @@ Documentation(info="<html>
 <li><a href=\"modelica://Modelica.Fluid.Examples.IncompressibleFluidNetwork\">Examples.IncompressibleFluidNetwork</a>.</li>
 </ul>
 </html>", revisions="<html>
-<p>- 2023.01.11,by QianZhang_UiS</p>
+<p>- 2023.01.11,by QianZhang</p>
 <p>First implementation.</p>
 </html>"),
 Icon(coordinateSystem(preserveAspectRatio=true,  extent={{-100,-100},{100,100}}), graphics={

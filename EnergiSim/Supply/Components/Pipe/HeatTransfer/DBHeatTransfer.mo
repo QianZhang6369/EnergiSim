@@ -9,7 +9,7 @@ equation
   end for;
 
   annotation (Documentation(revisions="<html>
-<p>- 2023.01.11,by QianZhang_UiS</p>
+<p>- 2023.01.11,by QianZhang</p>
 <p>First implementation.</p>
 </html>", info="<html>
 <p>This is the model for heat transfer correlation (Dittus-Boelter)</p>

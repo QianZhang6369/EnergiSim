@@ -37,5 +37,12 @@ equation
   annotation (
     Icon(coordinateSystem(preserveAspectRatio=false)),
     Diagram(coordinateSystem(preserveAspectRatio=false)),
-    experiment(StopTime=600, __Dymola_Algorithm="Dassl"));
+    experiment(StopTime=600, __Dymola_Algorithm="Dassl"),
+    Documentation(info="<html>
+<p>Test example:</p>
+<p>Fix temperature as heat resource, to heat up the water in the pipe</p>
+</html>", revisions="<html>
+<p>- 2023.01.11, by QianZhang</p>
+<p>First implementation.</p>
+</html>"));
 end Pipe;
