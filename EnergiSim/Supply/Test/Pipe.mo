@@ -2,7 +2,6 @@ within EnergiSim.Supply.Test;
 model Pipe
   Components.Pipe.DynamicPipe pipe(
     redeclare package Medium = Modelica.Media.Water.ConstantPropertyLiquidWater,
-
     length=10,
     diameter=0.0127,
     nNodes=5,
@@ -10,6 +9,7 @@ model Pipe
     redeclare model HeatTransfer =
         EnergiSim.Supply.Components.Pipe.HeatTransfer.DBHeatTransfer)
     annotation (Placement(transformation(extent={{-10,-30},{10,-10}})));
+
   Modelica.Thermal.HeatTransfer.Sources.FixedTemperature fixedTemperature(T=
         373.15)
     annotation (Placement(transformation(extent={{-60,20},{-40,40}})));
@@ -17,11 +17,11 @@ model Pipe
         5) annotation (Placement(transformation(extent={{-10,18},{10,-2}})));
   Modelica.Fluid.Sources.MassFlowSource_T boundary(
     redeclare package Medium = Modelica.Media.Water.ConstantPropertyLiquidWater,
-
     m_flow=0.1,
     T=303.15,
     nPorts=1)
     annotation (Placement(transformation(extent={{-66,-30},{-46,-10}})));
+
   Modelica.Fluid.Sources.FixedBoundary boundary1(redeclare package Medium =
         Modelica.Media.Water.ConstantPropertyLiquidWater, nPorts=1)
     annotation (Placement(transformation(extent={{64,-30},{44,-10}})));
